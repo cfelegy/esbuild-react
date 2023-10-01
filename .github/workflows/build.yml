@@ -15,4 +15,4 @@ jobs:
     - uses: borales/actions-yarn@v4
       with:
         cmd: install
-    - run: node build.mjs build-prod
+    - run: node ./build.mjs build-prod

@@ -6,4 +6,4 @@ if (DEBUG) {
 
 const appMount = document.getElementById('app')!;
 const root = createRoot(appMount);
-root.render(<h1>Hello, world</h1>);
+root.render(<h1 className='font-sans text-2xl text-center mt-4'>Hello, world</h1>);
